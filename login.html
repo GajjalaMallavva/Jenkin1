@@ -1,0 +1,38 @@
+<html>
+<head>
+<script language="javascript">
+function validate()
+{
+u=document.f1.t1.value;
+p=document.f1.p1.value;
+if(u=="MVSREC"&&p=="ITD")
+{
+window.alert("Login Successfull");
+}
+else
+{
+window.alert("Login Failed");
+}
+}
+
+</script >
+</head>
+<body>
+<form name="f1">
+<table border="5" align="center" bgcolor="pink">
+<tr><td>UserId</td>
+<td><input type="text" name="t1"></td>
+</tr>
+<tr><td>Password</td>
+<td><input type="text" name="p1"></td>
+</tr>
+<tr><td><input type="button" value="LOginIn" onClick="validate()"></td>
+<td><input type="reset" value="RESET"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+
+
